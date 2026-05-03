@@ -1,0 +1,2242 @@
+{
+  "country": {
+    "name": "Bahrain",
+    "slug": "bahrain",
+    "iso_a3": "BHR"
+  },
+  "data_window": {
+    "first_year": 1970,
+    "last_year": 2025,
+    "kpi_window": [
+      2015,
+      2025
+    ]
+  },
+  "block_a_kpis": {
+    "hydrocarbon_gdp_share": {
+      "value": 14.704,
+      "year": 2024,
+      "period_label": "2024",
+      "source": "Kingdom of Bahrain, open data portal (constant prices)",
+      "note": "Oil sector share of GDP at constant prices, 2024."
+    },
+    "fuel_exports_pct": {
+      "value": 29.8192,
+      "year": 2020,
+      "is_imputed_latest": true,
+      "raw_latest_value": 0.0004,
+      "raw_latest_year": 2024,
+      "note": "Most recent WDI value (2024 = 0.000372) looks like a data revision (below 10% of recent history); using the last credible value (2020).",
+      "source": "World Bank WDI"
+    },
+    "export_concentration": {
+      "value": 0.356,
+      "year": 2024,
+      "source": "UNCTAD"
+    },
+    "tourism_pct_exports_eff": {
+      "value": 2.8193,
+      "year": 2020,
+      "source": "World Bank WDI",
+      "is_fallback": false
+    },
+    "tourism_receipts_usd": {
+      "value": 724000000.0,
+      "year": 2020,
+      "source": "World Bank WDI"
+    },
+    "gdp_per_capita": {
+      "value": 29653.5683,
+      "year": 2024,
+      "source": "World Bank WDI"
+    },
+    "gdp": {
+      "value": 47109734308.5106,
+      "year": 2024,
+      "source": "World Bank WDI"
+    },
+    "ai_readiness_unified": {
+      "value": 59.665,
+      "year": 2025,
+      "source": "Oxford Insights AI Readiness",
+      "note": "Computed: mean of six 2025 pillars",
+      "world_rank": 48
+    },
+    "innovation_index": {
+      "value": 30.0158,
+      "year": 2025,
+      "source": "WIPO Global Innovation Index",
+      "world_rank": 62
+    }
+  },
+  "block_b_series": {
+    "export_concentration": [
+      {
+        "year": 1995,
+        "value": 0.402
+      },
+      {
+        "year": 1996,
+        "value": 0.398
+      },
+      {
+        "year": 1997,
+        "value": 0.39
+      },
+      {
+        "year": 1998,
+        "value": 0.408
+      },
+      {
+        "year": 1999,
+        "value": 0.422
+      },
+      {
+        "year": 2000,
+        "value": 0.407
+      },
+      {
+        "year": 2001,
+        "value": 0.385
+      },
+      {
+        "year": 2002,
+        "value": 0.361
+      },
+      {
+        "year": 2003,
+        "value": 0.348
+      },
+      {
+        "year": 2004,
+        "value": 0.387
+      },
+      {
+        "year": 2005,
+        "value": 0.394
+      },
+      {
+        "year": 2006,
+        "value": 0.424
+      },
+      {
+        "year": 2007,
+        "value": 0.408
+      },
+      {
+        "year": 2008,
+        "value": 0.351
+      },
+      {
+        "year": 2009,
+        "value": 0.3
+      },
+      {
+        "year": 2010,
+        "value": 0.333
+      },
+      {
+        "year": 2011,
+        "value": 0.331
+      },
+      {
+        "year": 2012,
+        "value": 0.357
+      },
+      {
+        "year": 2013,
+        "value": 0.308
+      },
+      {
+        "year": 2014,
+        "value": 0.387
+      },
+      {
+        "year": 2015,
+        "value": 0.327
+      },
+      {
+        "year": 2016,
+        "value": 0.269
+      },
+      {
+        "year": 2017,
+        "value": 0.316
+      },
+      {
+        "year": 2018,
+        "value": 0.338
+      },
+      {
+        "year": 2019,
+        "value": 0.32
+      },
+      {
+        "year": 2020,
+        "value": 0.33
+      },
+      {
+        "year": 2021,
+        "value": 0.327
+      },
+      {
+        "year": 2022,
+        "value": 0.362
+      },
+      {
+        "year": 2023,
+        "value": 0.365
+      },
+      {
+        "year": 2024,
+        "value": 0.356
+      }
+    ],
+    "exports_gdp": [
+      {
+        "year": 1980,
+        "value": 109.1488
+      },
+      {
+        "year": 1981,
+        "value": 115.3237
+      },
+      {
+        "year": 1982,
+        "value": 104.6399
+      },
+      {
+        "year": 1983,
+        "value": 85.0281
+      },
+      {
+        "year": 1984,
+        "value": 84.8561
+      },
+      {
+        "year": 1985,
+        "value": 89.5027
+      },
+      {
+        "year": 1986,
+        "value": 86.8122
+      },
+      {
+        "year": 1987,
+        "value": 90.0288
+      },
+      {
+        "year": 1988,
+        "value": 83.8462
+      },
+      {
+        "year": 1989,
+        "value": 86.7537
+      },
+      {
+        "year": 1990,
+        "value": 101.6271
+      },
+      {
+        "year": 1991,
+        "value": 74.7571
+      },
+      {
+        "year": 1992,
+        "value": 74.2108
+      },
+      {
+        "year": 1993,
+        "value": 73.7646
+      },
+      {
+        "year": 1994,
+        "value": 71.4065
+      },
+      {
+        "year": 1995,
+        "value": 72.1077
+      },
+      {
+        "year": 1996,
+        "value": 77.3167
+      },
+      {
+        "year": 1997,
+        "value": 69.5451
+      },
+      {
+        "year": 1998,
+        "value": 56.8165
+      },
+      {
+        "year": 1999,
+        "value": 69.3608
+      },
+      {
+        "year": 2000,
+        "value": 79.1807
+      },
+      {
+        "year": 2001,
+        "value": 73.6108
+      },
+      {
+        "year": 2002,
+        "value": 72.5086
+      },
+      {
+        "year": 2003,
+        "value": 72.0631
+      },
+      {
+        "year": 2004,
+        "value": 78.6051
+      },
+      {
+        "year": 2005,
+        "value": 83.894
+      },
+      {
+        "year": 2006,
+        "value": 84.6389
+      },
+      {
+        "year": 2007,
+        "value": 79.6795
+      },
+      {
+        "year": 2008,
+        "value": 82.5773
+      },
+      {
+        "year": 2009,
+        "value": 68.4656
+      },
+      {
+        "year": 2010,
+        "value": 66.7027
+      },
+      {
+        "year": 2011,
+        "value": 95.6363
+      },
+      {
+        "year": 2012,
+        "value": 98.2656
+      },
+      {
+        "year": 2013,
+        "value": 100.8267
+      },
+      {
+        "year": 2014,
+        "value": 92.2255
+      },
+      {
+        "year": 2015,
+        "value": 79.3441
+      },
+      {
+        "year": 2016,
+        "value": 70.5883
+      },
+      {
+        "year": 2017,
+        "value": 72.2539
+      },
+      {
+        "year": 2018,
+        "value": 75.7154
+      },
+      {
+        "year": 2019,
+        "value": 73.0944
+      },
+      {
+        "year": 2020,
+        "value": 70.4544
+      },
+      {
+        "year": 2021,
+        "value": 86.2742
+      },
+      {
+        "year": 2022,
+        "value": 95.9614
+      },
+      {
+        "year": 2023,
+        "value": 87.3511
+      },
+      {
+        "year": 2024,
+        "value": 87.675
+      }
+    ],
+    "exports_imports_ratio": [
+      {
+        "year": 1980,
+        "value": 1.077
+      },
+      {
+        "year": 1981,
+        "value": 1.0927
+      },
+      {
+        "year": 1982,
+        "value": 1.1143
+      },
+      {
+        "year": 1983,
+        "value": 1.0401
+      },
+      {
+        "year": 1984,
+        "value": 1.0282
+      },
+      {
+        "year": 1985,
+        "value": 1.1328
+      },
+      {
+        "year": 1986,
+        "value": 1.1639
+      },
+      {
+        "year": 1987,
+        "value": 1.1713
+      },
+      {
+        "year": 1988,
+        "value": 1.2303
+      },
+      {
+        "year": 1989,
+        "value": 1.1257
+      },
+      {
+        "year": 1990,
+        "value": 1.2215
+      },
+      {
+        "year": 1991,
+        "value": 0.8888
+      },
+      {
+        "year": 1992,
+        "value": 0.8722
+      },
+      {
+        "year": 1993,
+        "value": 1.039
+      },
+      {
+        "year": 1994,
+        "value": 1.0974
+      },
+      {
+        "year": 1995,
+        "value": 1.1634
+      },
+      {
+        "year": 1996,
+        "value": 1.1537
+      },
+      {
+        "year": 1997,
+        "value": 1.1377
+      },
+      {
+        "year": 1998,
+        "value": 1.0112
+      },
+      {
+        "year": 1999,
+        "value": 1.2526
+      },
+      {
+        "year": 2000,
+        "value": 1.3982
+      },
+      {
+        "year": 2001,
+        "value": 1.3781
+      },
+      {
+        "year": 2002,
+        "value": 1.2368
+      },
+      {
+        "year": 2003,
+        "value": 1.2862
+      },
+      {
+        "year": 2004,
+        "value": 1.2651
+      },
+      {
+        "year": 2005,
+        "value": 1.3023
+      },
+      {
+        "year": 2006,
+        "value": 1.355
+      },
+      {
+        "year": 2007,
+        "value": 1.3713
+      },
+      {
+        "year": 2008,
+        "value": 1.3044
+      },
+      {
+        "year": 2009,
+        "value": 1.3832
+      },
+      {
+        "year": 2010,
+        "value": 1.3652
+      },
+      {
+        "year": 2011,
+        "value": 1.3303
+      },
+      {
+        "year": 2012,
+        "value": 1.2198
+      },
+      {
+        "year": 2013,
+        "value": 1.2037
+      },
+      {
+        "year": 2014,
+        "value": 1.2079
+      },
+      {
+        "year": 2015,
+        "value": 1.1571
+      },
+      {
+        "year": 2016,
+        "value": 1.1342
+      },
+      {
+        "year": 2017,
+        "value": 1.1259
+      },
+      {
+        "year": 2018,
+        "value": 1.1076
+      },
+      {
+        "year": 2019,
+        "value": 1.1728
+      },
+      {
+        "year": 2020,
+        "value": 1.0838
+      },
+      {
+        "year": 2021,
+        "value": 1.2777
+      },
+      {
+        "year": 2022,
+        "value": 1.3482
+      },
+      {
+        "year": 2023,
+        "value": 1.2462
+      },
+      {
+        "year": 2024,
+        "value": 1.2499
+      }
+    ],
+    "fuel_exports_pct": [
+      {
+        "year": 1970,
+        "value": 77.8722
+      },
+      {
+        "year": 1971,
+        "value": 81.4145
+      },
+      {
+        "year": 1972,
+        "value": 78.2815
+      },
+      {
+        "year": 1973,
+        "value": 80.6225
+      },
+      {
+        "year": 1974,
+        "value": 84.4769
+      },
+      {
+        "year": 1975,
+        "value": 81.4562
+      },
+      {
+        "year": 1976,
+        "value": 78.9579
+      },
+      {
+        "year": 1977,
+        "value": 78.6323
+      },
+      {
+        "year": 1978,
+        "value": 79.6593
+      },
+      {
+        "year": 1979,
+        "value": 0.7277,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1980,
+        "value": 0.2905,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1981,
+        "value": 0.2133,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1982,
+        "value": 0.1298,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1983,
+        "value": 0.057,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1984,
+        "value": 0.1756,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1985,
+        "value": 0.0726,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1986,
+        "value": 0.0343,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1987,
+        "value": 0.0042,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 1994,
+        "value": 55.5491
+      },
+      {
+        "year": 1995,
+        "value": 53.1292
+      },
+      {
+        "year": 1996,
+        "value": 0.0176,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 2000,
+        "value": 0.0395,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 2001,
+        "value": 66.9335
+      },
+      {
+        "year": 2002,
+        "value": 69.3664
+      },
+      {
+        "year": 2003,
+        "value": 72.5186
+      },
+      {
+        "year": 2004,
+        "value": 75.5437
+      },
+      {
+        "year": 2005,
+        "value": 78.1593
+      },
+      {
+        "year": 2006,
+        "value": 80.5879
+      },
+      {
+        "year": 2007,
+        "value": 80.8288
+      },
+      {
+        "year": 2008,
+        "value": 69.0623
+      },
+      {
+        "year": 2009,
+        "value": 68.602
+      },
+      {
+        "year": 2010,
+        "value": 74.3475
+      },
+      {
+        "year": 2011,
+        "value": 71.8442
+      },
+      {
+        "year": 2012,
+        "value": 64.1472
+      },
+      {
+        "year": 2013,
+        "value": 59.0028
+      },
+      {
+        "year": 2014,
+        "value": 66.8347
+      },
+      {
+        "year": 2015,
+        "value": 50.3567
+      },
+      {
+        "year": 2016,
+        "value": 45.0173
+      },
+      {
+        "year": 2017,
+        "value": 50.1771
+      },
+      {
+        "year": 2018,
+        "value": 53.3204
+      },
+      {
+        "year": 2019,
+        "value": 42.1282
+      },
+      {
+        "year": 2020,
+        "value": 29.8192
+      },
+      {
+        "year": 2021,
+        "value": 0.0521,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 2022,
+        "value": 0.0426,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 2023,
+        "value": 0.2529,
+        "is_revision_artefact": true
+      },
+      {
+        "year": 2024,
+        "value": 0.0004,
+        "is_revision_artefact": true
+      }
+    ],
+    "gdp": [
+      {
+        "year": 1970,
+        "value": 391577364.0774
+      },
+      {
+        "year": 1971,
+        "value": 422181562.1867
+      },
+      {
+        "year": 1972,
+        "value": 534081183.6807
+      },
+      {
+        "year": 1973,
+        "value": 761132545.1042
+      },
+      {
+        "year": 1974,
+        "value": 1042176883.5183
+      },
+      {
+        "year": 1975,
+        "value": 1099107600.5057
+      },
+      {
+        "year": 1976,
+        "value": 1581709518.9826
+      },
+      {
+        "year": 1977,
+        "value": 1989060283.0427
+      },
+      {
+        "year": 1978,
+        "value": 2272042965.2113
+      },
+      {
+        "year": 1979,
+        "value": 2710160739.1874
+      },
+      {
+        "year": 1980,
+        "value": 3493834468.0286
+      },
+      {
+        "year": 1981,
+        "value": 3943109531.9149
+      },
+      {
+        "year": 1982,
+        "value": 4145421079.7872
+      },
+      {
+        "year": 1983,
+        "value": 4247030468.0851
+      },
+      {
+        "year": 1984,
+        "value": 4440874566.4894
+      },
+      {
+        "year": 1985,
+        "value": 4152376484.0426
+      },
+      {
+        "year": 1986,
+        "value": 3470746843.0851
+      },
+      {
+        "year": 1987,
+        "value": 3856922694.1489
+      },
+      {
+        "year": 1988,
+        "value": 4209834172.8723
+      },
+      {
+        "year": 1989,
+        "value": 4393093962.766
+      },
+      {
+        "year": 1990,
+        "value": 4809511005.3191
+      },
+      {
+        "year": 1991,
+        "value": 5248911170.2128
+      },
+      {
+        "year": 1992,
+        "value": 5402232446.8085
+      },
+      {
+        "year": 1993,
+        "value": 5913001063.8298
+      },
+      {
+        "year": 1994,
+        "value": 6330627925.5319
+      },
+      {
+        "year": 1995,
+        "value": 6651180851.0638
+      },
+      {
+        "year": 1996,
+        "value": 6938166755.3191
+      },
+      {
+        "year": 1997,
+        "value": 7219407712.766
+      },
+      {
+        "year": 1998,
+        "value": 7031309042.5532
+      },
+      {
+        "year": 1999,
+        "value": 7528469148.9362
+      },
+      {
+        "year": 2000,
+        "value": 9062898936.1702
+      },
+      {
+        "year": 2001,
+        "value": 8976196808.5106
+      },
+      {
+        "year": 2002,
+        "value": 9593510638.2979
+      },
+      {
+        "year": 2003,
+        "value": 11074813829.7872
+      },
+      {
+        "year": 2004,
+        "value": 13150159574.4681
+      },
+      {
+        "year": 2005,
+        "value": 15968723404.2553
+      },
+      {
+        "year": 2006,
+        "value": 18504760638.2979
+      },
+      {
+        "year": 2007,
+        "value": 21730000000.0
+      },
+      {
+        "year": 2008,
+        "value": 25710904255.3191
+      },
+      {
+        "year": 2009,
+        "value": 22938218085.1064
+      },
+      {
+        "year": 2010,
+        "value": 26805984042.5532
+      },
+      {
+        "year": 2011,
+        "value": 29914680851.0638
+      },
+      {
+        "year": 2012,
+        "value": 31963404255.3191
+      },
+      {
+        "year": 2013,
+        "value": 33823324468.0851
+      },
+      {
+        "year": 2014,
+        "value": 34772526595.7447
+      },
+      {
+        "year": 2015,
+        "value": 32523297872.3404
+      },
+      {
+        "year": 2016,
+        "value": 33884680851.0638
+      },
+      {
+        "year": 2017,
+        "value": 37204813829.7872
+      },
+      {
+        "year": 2018,
+        "value": 39567978723.4043
+      },
+      {
+        "year": 2019,
+        "value": 40446808510.6383
+      },
+      {
+        "year": 2020,
+        "value": 35837632978.7234
+      },
+      {
+        "year": 2021,
+        "value": 40840212765.9574
+      },
+      {
+        "year": 2022,
+        "value": 46458191489.3617
+      },
+      {
+        "year": 2023,
+        "value": 46192260638.2979
+      },
+      {
+        "year": 2024,
+        "value": 47109734308.5106
+      }
+    ],
+    "gdp_per_capita": [
+      {
+        "year": 1970,
+        "value": 1741.8225
+      },
+      {
+        "year": 1971,
+        "value": 1829.7407
+      },
+      {
+        "year": 1972,
+        "value": 2205.917
+      },
+      {
+        "year": 1973,
+        "value": 2981.0925
+      },
+      {
+        "year": 1974,
+        "value": 3873.7163
+      },
+      {
+        "year": 1975,
+        "value": 3880.4405
+      },
+      {
+        "year": 1976,
+        "value": 5310.1913
+      },
+      {
+        "year": 1977,
+        "value": 6358.4208
+      },
+      {
+        "year": 1978,
+        "value": 6925.9889
+      },
+      {
+        "year": 1979,
+        "value": 7890.8298
+      },
+      {
+        "year": 1980,
+        "value": 9732.7259
+      },
+      {
+        "year": 1981,
+        "value": 10556.5092
+      },
+      {
+        "year": 1982,
+        "value": 10712.1529
+      },
+      {
+        "year": 1983,
+        "value": 10598.8427
+      },
+      {
+        "year": 1984,
+        "value": 10696.9331
+      },
+      {
+        "year": 1985,
+        "value": 9648.6564
+      },
+      {
+        "year": 1986,
+        "value": 7776.9566
+      },
+      {
+        "year": 1987,
+        "value": 8332.9143
+      },
+      {
+        "year": 1988,
+        "value": 8771.7854
+      },
+      {
+        "year": 1989,
+        "value": 8833.4113
+      },
+      {
+        "year": 1990,
+        "value": 9342.5389
+      },
+      {
+        "year": 1991,
+        "value": 10434.1324
+      },
+      {
+        "year": 1992,
+        "value": 10460.1583
+      },
+      {
+        "year": 1993,
+        "value": 11151.8715
+      },
+      {
+        "year": 1994,
+        "value": 11629.3595
+      },
+      {
+        "year": 1995,
+        "value": 11900.9318
+      },
+      {
+        "year": 1996,
+        "value": 12091.7802
+      },
+      {
+        "year": 1997,
+        "value": 12254.6663
+      },
+      {
+        "year": 1998,
+        "value": 11625.0344
+      },
+      {
+        "year": 1999,
+        "value": 12123.3535
+      },
+      {
+        "year": 2000,
+        "value": 14214.4837
+      },
+      {
+        "year": 2001,
+        "value": 13573.234
+      },
+      {
+        "year": 2002,
+        "value": 13501.4709
+      },
+      {
+        "year": 2003,
+        "value": 14486.0269
+      },
+      {
+        "year": 2004,
+        "value": 15963.9493
+      },
+      {
+        "year": 2005,
+        "value": 17966.1658
+      },
+      {
+        "year": 2006,
+        "value": 19267.2826
+      },
+      {
+        "year": 2007,
+        "value": 20908.4043
+      },
+      {
+        "year": 2008,
+        "value": 23299.4993
+      },
+      {
+        "year": 2009,
+        "value": 19465.3141
+      },
+      {
+        "year": 2010,
+        "value": 21819.3291
+      },
+      {
+        "year": 2011,
+        "value": 25032.7868
+      },
+      {
+        "year": 2012,
+        "value": 26438.6733
+      },
+      {
+        "year": 2013,
+        "value": 26989.7601
+      },
+      {
+        "year": 2014,
+        "value": 26451.7966
+      },
+      {
+        "year": 2015,
+        "value": 23734.0551
+      },
+      {
+        "year": 2016,
+        "value": 23800.0014
+      },
+      {
+        "year": 2017,
+        "value": 24784.7694
+      },
+      {
+        "year": 2018,
+        "value": 26324.4067
+      },
+      {
+        "year": 2019,
+        "value": 27259.7439
+      },
+      {
+        "year": 2020,
+        "value": 24342.8445
+      },
+      {
+        "year": 2021,
+        "value": 27147.8084
+      },
+      {
+        "year": 2022,
+        "value": 30470.5219
+      },
+      {
+        "year": 2023,
+        "value": 29290.1284
+      },
+      {
+        "year": 2024,
+        "value": 29653.5683
+      }
+    ],
+    "imports_gdp": [
+      {
+        "year": 1980,
+        "value": 101.3497
+      },
+      {
+        "year": 1981,
+        "value": 105.5437
+      },
+      {
+        "year": 1982,
+        "value": 93.9065
+      },
+      {
+        "year": 1983,
+        "value": 81.7467
+      },
+      {
+        "year": 1984,
+        "value": 82.5324
+      },
+      {
+        "year": 1985,
+        "value": 79.0114
+      },
+      {
+        "year": 1986,
+        "value": 74.59
+      },
+      {
+        "year": 1987,
+        "value": 76.8651
+      },
+      {
+        "year": 1988,
+        "value": 68.1535
+      },
+      {
+        "year": 1989,
+        "value": 77.0673
+      },
+      {
+        "year": 1990,
+        "value": 83.2017
+      },
+      {
+        "year": 1991,
+        "value": 84.1107
+      },
+      {
+        "year": 1992,
+        "value": 85.0811
+      },
+      {
+        "year": 1993,
+        "value": 70.9984
+      },
+      {
+        "year": 1994,
+        "value": 65.067
+      },
+      {
+        "year": 1995,
+        "value": 61.9791
+      },
+      {
+        "year": 1996,
+        "value": 67.0168
+      },
+      {
+        "year": 1997,
+        "value": 61.1273
+      },
+      {
+        "year": 1998,
+        "value": 56.1849
+      },
+      {
+        "year": 1999,
+        "value": 55.3749
+      },
+      {
+        "year": 2000,
+        "value": 56.6285
+      },
+      {
+        "year": 2001,
+        "value": 53.4155
+      },
+      {
+        "year": 2002,
+        "value": 58.6251
+      },
+      {
+        "year": 2003,
+        "value": 56.0285
+      },
+      {
+        "year": 2004,
+        "value": 62.1322
+      },
+      {
+        "year": 2005,
+        "value": 64.4195
+      },
+      {
+        "year": 2006,
+        "value": 62.4652
+      },
+      {
+        "year": 2007,
+        "value": 58.1055
+      },
+      {
+        "year": 2008,
+        "value": 63.3052
+      },
+      {
+        "year": 2009,
+        "value": 49.4981
+      },
+      {
+        "year": 2010,
+        "value": 48.8588
+      },
+      {
+        "year": 2011,
+        "value": 71.8933
+      },
+      {
+        "year": 2012,
+        "value": 80.5584
+      },
+      {
+        "year": 2013,
+        "value": 83.7629
+      },
+      {
+        "year": 2014,
+        "value": 76.3503
+      },
+      {
+        "year": 2015,
+        "value": 68.572
+      },
+      {
+        "year": 2016,
+        "value": 62.2347
+      },
+      {
+        "year": 2017,
+        "value": 64.1754
+      },
+      {
+        "year": 2018,
+        "value": 68.36
+      },
+      {
+        "year": 2019,
+        "value": 62.3231
+      },
+      {
+        "year": 2020,
+        "value": 65.0065
+      },
+      {
+        "year": 2021,
+        "value": 67.5251
+      },
+      {
+        "year": 2022,
+        "value": 71.1799
+      },
+      {
+        "year": 2023,
+        "value": 70.0967
+      },
+      {
+        "year": 2024,
+        "value": 70.1435
+      }
+    ],
+    "manufacturing_gdp": [
+      {
+        "year": 2006,
+        "value": 13.2467
+      },
+      {
+        "year": 2007,
+        "value": 14.467
+      },
+      {
+        "year": 2008,
+        "value": 15.0966
+      },
+      {
+        "year": 2009,
+        "value": 13.9817
+      },
+      {
+        "year": 2010,
+        "value": 14.5895
+      },
+      {
+        "year": 2011,
+        "value": 15.0475
+      },
+      {
+        "year": 2012,
+        "value": 14.7646
+      },
+      {
+        "year": 2013,
+        "value": 14.6994
+      },
+      {
+        "year": 2014,
+        "value": 14.8385
+      },
+      {
+        "year": 2015,
+        "value": 17.1733
+      },
+      {
+        "year": 2016,
+        "value": 17.8416
+      },
+      {
+        "year": 2017,
+        "value": 18.1845
+      },
+      {
+        "year": 2018,
+        "value": 17.1707
+      },
+      {
+        "year": 2019,
+        "value": 17.0407
+      },
+      {
+        "year": 2020,
+        "value": 18.0469
+      },
+      {
+        "year": 2021,
+        "value": 20.529
+      },
+      {
+        "year": 2022,
+        "value": 20.9351
+      },
+      {
+        "year": 2023,
+        "value": 20.1298
+      },
+      {
+        "year": 2024,
+        "value": 19.9094
+      }
+    ],
+    "oil_rents_gdp": [
+      {
+        "year": 1980,
+        "value": 68.1362
+      },
+      {
+        "year": 1981,
+        "value": 58.0699
+      },
+      {
+        "year": 1982,
+        "value": 33.7423
+      },
+      {
+        "year": 1983,
+        "value": 29.0419
+      },
+      {
+        "year": 1984,
+        "value": 31.8871
+      },
+      {
+        "year": 1985,
+        "value": 30.4149
+      },
+      {
+        "year": 1986,
+        "value": 23.3123
+      },
+      {
+        "year": 1987,
+        "value": 30.0343
+      },
+      {
+        "year": 1988,
+        "value": 23.1071
+      },
+      {
+        "year": 1989,
+        "value": 31.1467
+      },
+      {
+        "year": 1990,
+        "value": 37.0437
+      },
+      {
+        "year": 1991,
+        "value": 20.4853
+      },
+      {
+        "year": 1992,
+        "value": 20.7617
+      },
+      {
+        "year": 1993,
+        "value": 17.958
+      },
+      {
+        "year": 1994,
+        "value": 14.683
+      },
+      {
+        "year": 1995,
+        "value": 15.246
+      },
+      {
+        "year": 1996,
+        "value": 18.4494
+      },
+      {
+        "year": 1997,
+        "value": 16.4187
+      },
+      {
+        "year": 1998,
+        "value": 10.6377
+      },
+      {
+        "year": 1999,
+        "value": 14.7941
+      },
+      {
+        "year": 2000,
+        "value": 18.7111
+      },
+      {
+        "year": 2001,
+        "value": 15.0074
+      },
+      {
+        "year": 2002,
+        "value": 14.4907
+      },
+      {
+        "year": 2003,
+        "value": 14.988
+      },
+      {
+        "year": 2004,
+        "value": 16.653
+      },
+      {
+        "year": 2005,
+        "value": 20.0931
+      },
+      {
+        "year": 2006,
+        "value": 20.3671
+      },
+      {
+        "year": 2007,
+        "value": 18.9906
+      },
+      {
+        "year": 2008,
+        "value": 21.6816
+      },
+      {
+        "year": 2009,
+        "value": 14.4351
+      },
+      {
+        "year": 2010,
+        "value": 17.3156
+      },
+      {
+        "year": 2011,
+        "value": 23.3981
+      },
+      {
+        "year": 2012,
+        "value": 20.094
+      },
+      {
+        "year": 2013,
+        "value": 20.866
+      },
+      {
+        "year": 2014,
+        "value": 18.8709
+      },
+      {
+        "year": 2015,
+        "value": 9.8247
+      },
+      {
+        "year": 2016,
+        "value": 7.6296
+      },
+      {
+        "year": 2017,
+        "value": 8.938
+      },
+      {
+        "year": 2018,
+        "value": 11.3901
+      },
+      {
+        "year": 2019,
+        "value": 9.8482
+      },
+      {
+        "year": 2020,
+        "value": 6.6956
+      },
+      {
+        "year": 2021,
+        "value": 10.9377
+      }
+    ],
+    "services_gdp": [
+      {
+        "year": 2006,
+        "value": 53.4635
+      },
+      {
+        "year": 2007,
+        "value": 52.81
+      },
+      {
+        "year": 2008,
+        "value": 48.3071
+      },
+      {
+        "year": 2009,
+        "value": 55.5965
+      },
+      {
+        "year": 2010,
+        "value": 54.7856
+      },
+      {
+        "year": 2011,
+        "value": 50.6069
+      },
+      {
+        "year": 2012,
+        "value": 52.445
+      },
+      {
+        "year": 2013,
+        "value": 52.1332
+      },
+      {
+        "year": 2014,
+        "value": 53.721
+      },
+      {
+        "year": 2015,
+        "value": 59.7147
+      },
+      {
+        "year": 2016,
+        "value": 60.7105
+      },
+      {
+        "year": 2017,
+        "value": 58.8266
+      },
+      {
+        "year": 2018,
+        "value": 57.2062
+      },
+      {
+        "year": 2019,
+        "value": 56.3995
+      },
+      {
+        "year": 2020,
+        "value": 57.8231
+      },
+      {
+        "year": 2021,
+        "value": 52.8741
+      },
+      {
+        "year": 2022,
+        "value": 49.2411
+      },
+      {
+        "year": 2023,
+        "value": 51.945
+      },
+      {
+        "year": 2024,
+        "value": 53.1861
+      }
+    ],
+    "tourism_pct_exports_eff": [
+      {
+        "year": 1995,
+        "value": 12.3603
+      },
+      {
+        "year": 1996,
+        "value": 10.9717
+      },
+      {
+        "year": 1997,
+        "value": 11.5135
+      },
+      {
+        "year": 1998,
+        "value": 15.6448
+      },
+      {
+        "year": 1999,
+        "value": 15.0334
+      },
+      {
+        "year": 2000,
+        "value": 11.9006
+      },
+      {
+        "year": 2001,
+        "value": 13.4113
+      },
+      {
+        "year": 2002,
+        "value": 14.1604
+      },
+      {
+        "year": 2003,
+        "value": 15.1115
+      },
+      {
+        "year": 2004,
+        "value": 14.5501
+      },
+      {
+        "year": 2005,
+        "value": 11.9654
+      },
+      {
+        "year": 2006,
+        "value": 11.4032
+      },
+      {
+        "year": 2007,
+        "value": 10.7079
+      },
+      {
+        "year": 2008,
+        "value": 9.0762
+      },
+      {
+        "year": 2009,
+        "value": 11.9263
+      },
+      {
+        "year": 2010,
+        "value": 12.0971
+      },
+      {
+        "year": 2011,
+        "value": 7.6963
+      },
+      {
+        "year": 2012,
+        "value": 5.578
+      },
+      {
+        "year": 2013,
+        "value": 5.4981
+      },
+      {
+        "year": 2014,
+        "value": 5.9652
+      },
+      {
+        "year": 2015,
+        "value": 11.0202
+      },
+      {
+        "year": 2016,
+        "value": 16.9076
+      },
+      {
+        "year": 2017,
+        "value": 16.3875
+      },
+      {
+        "year": 2018,
+        "value": 12.7975
+      },
+      {
+        "year": 2019,
+        "value": 12.8411
+      },
+      {
+        "year": 2020,
+        "value": 2.8193
+      }
+    ],
+    "tourism_receipts_usd": [
+      {
+        "year": 1995,
+        "value": 593000000.0
+      },
+      {
+        "year": 1996,
+        "value": 589000000.0
+      },
+      {
+        "year": 1997,
+        "value": 578000000.0
+      },
+      {
+        "year": 1998,
+        "value": 625000000.0
+      },
+      {
+        "year": 1999,
+        "value": 785000000.0
+      },
+      {
+        "year": 2000,
+        "value": 854000000.0
+      },
+      {
+        "year": 2001,
+        "value": 886000000.0
+      },
+      {
+        "year": 2002,
+        "value": 985000000.0
+      },
+      {
+        "year": 2003,
+        "value": 1206000000.0
+      },
+      {
+        "year": 2004,
+        "value": 1504000000.0
+      },
+      {
+        "year": 2005,
+        "value": 1603000000.0
+      },
+      {
+        "year": 2006,
+        "value": 1786000000.0
+      },
+      {
+        "year": 2007,
+        "value": 1854000000.0
+      },
+      {
+        "year": 2008,
+        "value": 1927000000.0
+      },
+      {
+        "year": 2009,
+        "value": 1873000000.0
+      },
+      {
+        "year": 2010,
+        "value": 2163000000.0
+      },
+      {
+        "year": 2011,
+        "value": 1766000000.0
+      },
+      {
+        "year": 2012,
+        "value": 1752000000.0
+      },
+      {
+        "year": 2013,
+        "value": 1875000000.0
+      },
+      {
+        "year": 2014,
+        "value": 1913000000.0
+      },
+      {
+        "year": 2015,
+        "value": 2827000000.0
+      },
+      {
+        "year": 2016,
+        "value": 4021000000.0
+      },
+      {
+        "year": 2017,
+        "value": 4380000000.0
+      },
+      {
+        "year": 2018,
+        "value": 3834000000.0
+      },
+      {
+        "year": 2019,
+        "value": 3860000000.0
+      },
+      {
+        "year": 2020,
+        "value": 724000000.0
+      }
+    ],
+    "trade_openness_gdp": [
+      {
+        "year": 1980,
+        "value": 210.4985
+      },
+      {
+        "year": 1981,
+        "value": 220.8674
+      },
+      {
+        "year": 1982,
+        "value": 198.5464
+      },
+      {
+        "year": 1983,
+        "value": 166.7749
+      },
+      {
+        "year": 1984,
+        "value": 167.3884
+      },
+      {
+        "year": 1985,
+        "value": 168.5141
+      },
+      {
+        "year": 1986,
+        "value": 161.4022
+      },
+      {
+        "year": 1987,
+        "value": 166.8939
+      },
+      {
+        "year": 1988,
+        "value": 151.9997
+      },
+      {
+        "year": 1989,
+        "value": 163.8209
+      },
+      {
+        "year": 1990,
+        "value": 184.8288
+      },
+      {
+        "year": 1991,
+        "value": 158.8678
+      },
+      {
+        "year": 1992,
+        "value": 159.2919
+      },
+      {
+        "year": 1993,
+        "value": 144.763
+      },
+      {
+        "year": 1994,
+        "value": 136.4735
+      },
+      {
+        "year": 1995,
+        "value": 134.0867
+      },
+      {
+        "year": 1996,
+        "value": 144.3335
+      },
+      {
+        "year": 1997,
+        "value": 130.6724
+      },
+      {
+        "year": 1998,
+        "value": 113.0014
+      },
+      {
+        "year": 1999,
+        "value": 124.7357
+      },
+      {
+        "year": 2000,
+        "value": 135.8091
+      },
+      {
+        "year": 2001,
+        "value": 127.0263
+      },
+      {
+        "year": 2002,
+        "value": 131.1336
+      },
+      {
+        "year": 2003,
+        "value": 128.0916
+      },
+      {
+        "year": 2004,
+        "value": 140.7373
+      },
+      {
+        "year": 2005,
+        "value": 148.3135
+      },
+      {
+        "year": 2006,
+        "value": 147.1042
+      },
+      {
+        "year": 2007,
+        "value": 137.7851
+      },
+      {
+        "year": 2008,
+        "value": 145.8825
+      },
+      {
+        "year": 2009,
+        "value": 117.9637
+      },
+      {
+        "year": 2010,
+        "value": 115.5615
+      },
+      {
+        "year": 2011,
+        "value": 167.5296
+      },
+      {
+        "year": 2012,
+        "value": 178.824
+      },
+      {
+        "year": 2013,
+        "value": 184.5895
+      },
+      {
+        "year": 2014,
+        "value": 168.5759
+      },
+      {
+        "year": 2015,
+        "value": 147.9161
+      },
+      {
+        "year": 2016,
+        "value": 132.823
+      },
+      {
+        "year": 2017,
+        "value": 136.4292
+      },
+      {
+        "year": 2018,
+        "value": 144.0754
+      },
+      {
+        "year": 2019,
+        "value": 135.4175
+      },
+      {
+        "year": 2020,
+        "value": 135.461
+      },
+      {
+        "year": 2021,
+        "value": 153.7993
+      },
+      {
+        "year": 2022,
+        "value": 167.1412
+      },
+      {
+        "year": 2023,
+        "value": 157.4479
+      },
+      {
+        "year": 2024,
+        "value": 157.8185
+      }
+    ],
+    "ai_readiness_unified": [
+      {
+        "year": 2023,
+        "value": 56.13
+      },
+      {
+        "year": 2024,
+        "value": 54.33
+      },
+      {
+        "year": 2025,
+        "value": 59.665
+      }
+    ],
+    "innovation_index": [
+      {
+        "year": 2025,
+        "value": 30.0158
+      }
+    ]
+  },
+  "block_b_groups": {
+    "hydrocarbons": [
+      "fuel_exports_pct",
+      "oil_rents_gdp"
+    ],
+    "diversification": [
+      "export_concentration",
+      "manufacturing_gdp",
+      "services_gdp"
+    ],
+    "tourism": [
+      "tourism_pct_exports_eff",
+      "tourism_receipts_usd"
+    ],
+    "trade": [
+      "exports_gdp",
+      "imports_gdp",
+      "trade_openness_gdp",
+      "exports_imports_ratio"
+    ],
+    "macro_context": [
+      "gdp",
+      "gdp_per_capita"
+    ]
+  },
+  "intra_gcc_ranks": {
+    "hydrocarbon_gdp_share": {
+      "rank": 1,
+      "value": 14.704,
+      "year": 2024,
+      "total": 6
+    },
+    "fuel_exports_pct": {
+      "rank": 1,
+      "value": 29.8192,
+      "year": 2020,
+      "total": 6
+    },
+    "export_concentration": {
+      "rank": 4,
+      "value": 0.356,
+      "year": 2024,
+      "total": 6
+    },
+    "tourism_pct_exports_eff": {
+      "rank": 4,
+      "value": 2.8193,
+      "year": 2020,
+      "total": 6
+    },
+    "gdp": {
+      "rank": 6,
+      "value": 47109734308.5106,
+      "year": 2024,
+      "total": 6
+    },
+    "gdp_per_capita": {
+      "rank": 5,
+      "value": 29653.5683,
+      "year": 2024,
+      "total": 6
+    },
+    "ai_readiness_unified": {
+      "rank": 5,
+      "value": 59.665,
+      "year": 2025,
+      "total": 6
+    },
+    "innovation_index": {
+      "rank": 4,
+      "value": 30.0158,
+      "year": 2025,
+      "total": 6
+    }
+  },
+  "directional_summary": {
+    "per_indicator": {
+      "export_concentration": {
+        "improved": 13,
+        "deteriorated": 11,
+        "flat": 0,
+        "missing": 0
+      },
+      "fuel_exports_pct": {
+        "improved": 12,
+        "deteriorated": 12,
+        "flat": 0,
+        "missing": 0
+      },
+      "manufacturing_gdp": {
+        "improved": 11,
+        "deteriorated": 7,
+        "flat": 0,
+        "missing": 6
+      },
+      "services_gdp": {
+        "improved": 8,
+        "deteriorated": 10,
+        "flat": 0,
+        "missing": 6
+      },
+      "tourism_pct_exports_eff": {
+        "improved": 9,
+        "deteriorated": 11,
+        "flat": 0,
+        "missing": 4
+      }
+    },
+    "totals": {
+      "improved": 53,
+      "deteriorated": 51,
+      "flat": 0,
+      "missing": 16
+    }
+  }
+}

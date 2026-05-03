@@ -1,0 +1,706 @@
+{
+  "title": "GCC overview",
+  "main_question": "What differentiates GCC countries in their post-oil transition, and which factors are associated with stronger diversification outcomes?",
+  "snapshot_window": [
+    2015,
+    2025
+  ],
+  "country_snapshots": [
+    {
+      "country": "Bahrain",
+      "slug": "bahrain",
+      "iso_a3": "BHR",
+      "hydrocarbon_gdp_share": {
+        "value": 14.704,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "Kingdom of Bahrain, open data portal (constant prices)",
+        "note": "Oil sector share of GDP at constant prices, 2024."
+      },
+      "fuel_exports_pct": {
+        "value": 29.8192,
+        "year": 2020,
+        "is_imputed_latest": true,
+        "raw_latest_value": 0.0004,
+        "raw_latest_year": 2024,
+        "note": "Most recent WDI value (2024 = 0.000372) looks like a data revision (below 10% of recent history); using the last credible value (2020).",
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.356,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 2.8193,
+        "year": 2020,
+        "source": "World Bank WDI",
+        "is_fallback": false
+      },
+      "gdp": {
+        "value": 47109734308.5106,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 29653.5683,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 59.665,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 48
+      },
+      "innovation_index": {
+        "value": 30.0158,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 62
+      }
+    },
+    {
+      "country": "Kuwait",
+      "slug": "kuwait",
+      "iso_a3": "KWT",
+      "hydrocarbon_gdp_share": {
+        "value": 43.4,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "Kuwait, acting finance minister, public statement (Reuters)",
+        "note": "Oil sector share of GDP, 2024."
+      },
+      "fuel_exports_pct": {
+        "value": 90.7321,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.297,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 1.1051,
+        "year": 2020,
+        "source": "World Bank WDI",
+        "is_fallback": false
+      },
+      "gdp": {
+        "value": 160227273053.334,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 32717.7187,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 43.4283,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 83
+      },
+      "innovation_index": {
+        "value": 28.2143,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 73
+      }
+    },
+    {
+      "country": "Oman",
+      "slug": "oman",
+      "iso_a3": "OMN",
+      "hydrocarbon_gdp_share": {
+        "value": 34.6,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "NCSI Oman, Monthly Statistical Bulletin",
+        "note": "Petroleum activities OMR 14,234.5 m / GDP at market prices OMR 41,194.3 m for 2024."
+      },
+      "fuel_exports_pct": {
+        "value": 77.1995,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.324,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 1.8744,
+        "year": 2020,
+        "source": "World Bank WDI",
+        "is_fallback": false
+      },
+      "gdp": {
+        "value": 107137198769.386,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 20285.2273,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 60.0167,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 61
+      },
+      "innovation_index": {
+        "value": 28.6491,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 69
+      }
+    },
+    {
+      "country": "Qatar",
+      "slug": "qatar",
+      "iso_a3": "QAT",
+      "hydrocarbon_gdp_share": {
+        "value": 36.0,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "Qatar News Agency, National Statistics Center release",
+        "note": "Implied hydrocarbon share of GDP for 2024. Derived as 100 minus the non-hydrocarbon share of nearly 64% reported by the National Statistics Center for full-year 2024."
+      },
+      "fuel_exports_pct": {
+        "value": 83.7598,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.4,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 20.1852,
+        "year": 2020,
+        "source": "World Bank WDI",
+        "is_fallback": false
+      },
+      "gdp": {
+        "value": 219162637362.637,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 76688.6942,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 60.3767,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 54
+      },
+      "innovation_index": {
+        "value": 34.5618,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 48
+      }
+    },
+    {
+      "country": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "iso_a3": "SAU",
+      "hydrocarbon_gdp_share": {
+        "value": 19.4,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "GASTAT, Annual National Accounts 2024",
+        "note": "Crude oil and natural gas activities, share of GDP (2024)."
+      },
+      "fuel_exports_pct": {
+        "value": 79.3976,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.549,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 3.224,
+        "year": 2020,
+        "source": "World Bank WDI",
+        "is_fallback": false
+      },
+      "gdp": {
+        "value": 1239804533333.33,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 35121.6629,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 74.7717,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 15
+      },
+      "innovation_index": {
+        "value": 36.0448,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 46
+      }
+    },
+    {
+      "country": "United Arab Emirates",
+      "slug": "united-arab-emirates",
+      "iso_a3": "ARE",
+      "hydrocarbon_gdp_share": {
+        "value": 24.5,
+        "year": 2024,
+        "period_label": "2024",
+        "source": "FCSC (UAE), 2024 GDP release",
+        "note": "Implied oil-related share of real GDP. Derived as 100 minus the FCSC non-oil GDP share of 75.5% for 2024."
+      },
+      "fuel_exports_pct": {
+        "value": 68.2029,
+        "year": 2023,
+        "source": "World Bank WDI"
+      },
+      "export_concentration": {
+        "value": 0.282,
+        "year": 2024,
+        "source": "UNCTAD"
+      },
+      "tourism_pct_exports_eff": {
+        "value": 7.0274,
+        "year": 2020,
+        "source": "World Bank WDI (derived)",
+        "is_fallback": true,
+        "note": "Derived because the WDI tourism-as-%-of-exports series is missing for this country-year: tourism_receipts_usd / exports_usd × 100."
+      },
+      "gdp": {
+        "value": 552324846834.581,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "gdp_per_capita": {
+        "value": 50273.506,
+        "year": 2024,
+        "source": "World Bank WDI"
+      },
+      "ai_readiness_unified": {
+        "value": 69.505,
+        "year": 2025,
+        "source": "Oxford Insights AI Readiness",
+        "world_rank": 19
+      },
+      "innovation_index": {
+        "value": 44.1545,
+        "year": 2025,
+        "source": "WIPO Global Innovation Index",
+        "world_rank": 30
+      }
+    }
+  ],
+  "headline_indicators": [
+    "hydrocarbon_gdp_share",
+    "fuel_exports_pct",
+    "export_concentration",
+    "tourism_pct_exports_eff",
+    "gdp",
+    "gdp_per_capita",
+    "ai_readiness_unified",
+    "innovation_index"
+  ],
+  "intra_gcc_ranks": {
+    "Bahrain": {
+      "hydrocarbon_gdp_share": {
+        "rank": 1,
+        "value": 14.704,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 1,
+        "value": 29.8192,
+        "year": 2020,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 4,
+        "value": 0.356,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 4,
+        "value": 2.8193,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 6,
+        "value": 47109734308.5106,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 5,
+        "value": 29653.5683,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 5,
+        "value": 59.665,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 4,
+        "value": 30.0158,
+        "year": 2025,
+        "total": 6
+      }
+    },
+    "Kuwait": {
+      "hydrocarbon_gdp_share": {
+        "rank": 6,
+        "value": 43.4,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 6,
+        "value": 90.7321,
+        "year": 2024,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 2,
+        "value": 0.297,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 6,
+        "value": 1.1051,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 4,
+        "value": 160227273053.334,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 4,
+        "value": 32717.7187,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 6,
+        "value": 43.4283,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 6,
+        "value": 28.2143,
+        "year": 2025,
+        "total": 6
+      }
+    },
+    "Oman": {
+      "hydrocarbon_gdp_share": {
+        "rank": 4,
+        "value": 34.6,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 3,
+        "value": 77.1995,
+        "year": 2024,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 3,
+        "value": 0.324,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 5,
+        "value": 1.8744,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 5,
+        "value": 107137198769.386,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 6,
+        "value": 20285.2273,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 4,
+        "value": 60.0167,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 5,
+        "value": 28.6491,
+        "year": 2025,
+        "total": 6
+      }
+    },
+    "Qatar": {
+      "hydrocarbon_gdp_share": {
+        "rank": 5,
+        "value": 36.0,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 5,
+        "value": 83.7598,
+        "year": 2024,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 5,
+        "value": 0.4,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 1,
+        "value": 20.1852,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 3,
+        "value": 219162637362.637,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 1,
+        "value": 76688.6942,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 3,
+        "value": 60.3767,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 3,
+        "value": 34.5618,
+        "year": 2025,
+        "total": 6
+      }
+    },
+    "Saudi Arabia": {
+      "hydrocarbon_gdp_share": {
+        "rank": 2,
+        "value": 19.4,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 4,
+        "value": 79.3976,
+        "year": 2024,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 6,
+        "value": 0.549,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 3,
+        "value": 3.224,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 1,
+        "value": 1239804533333.33,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 3,
+        "value": 35121.6629,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 1,
+        "value": 74.7717,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 2,
+        "value": 36.0448,
+        "year": 2025,
+        "total": 6
+      }
+    },
+    "United Arab Emirates": {
+      "hydrocarbon_gdp_share": {
+        "rank": 3,
+        "value": 24.5,
+        "year": 2024,
+        "total": 6
+      },
+      "fuel_exports_pct": {
+        "rank": 2,
+        "value": 68.2029,
+        "year": 2023,
+        "total": 6
+      },
+      "export_concentration": {
+        "rank": 1,
+        "value": 0.282,
+        "year": 2024,
+        "total": 6
+      },
+      "tourism_pct_exports_eff": {
+        "rank": 2,
+        "value": 7.0274,
+        "year": 2020,
+        "total": 6
+      },
+      "gdp": {
+        "rank": 2,
+        "value": 552324846834.581,
+        "year": 2024,
+        "total": 6
+      },
+      "gdp_per_capita": {
+        "rank": 2,
+        "value": 50273.506,
+        "year": 2024,
+        "total": 6
+      },
+      "ai_readiness_unified": {
+        "rank": 2,
+        "value": 69.505,
+        "year": 2025,
+        "total": 6
+      },
+      "innovation_index": {
+        "rank": 1,
+        "value": 44.1545,
+        "year": 2025,
+        "total": 6
+      }
+    }
+  },
+  "tourism_lens_window": [
+    2017,
+    2023
+  ],
+  "tourism_lens_points": [
+    {
+      "country": "Bahrain",
+      "slug": "bahrain",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 2.8193,
+      "tourism_pct_exports_eff_is_fallback": false,
+      "tourism_receipts_usd": 724000000.0,
+      "log10_tourism_usd": 8.8597,
+      "ai_readiness_2023": 56.13,
+      "gii_2025": 30.0158
+    },
+    {
+      "country": "Kuwait",
+      "slug": "kuwait",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 1.1051,
+      "tourism_pct_exports_eff_is_fallback": false,
+      "tourism_receipts_usd": 524000000.0,
+      "log10_tourism_usd": 8.7193,
+      "ai_readiness_2023": 49.86,
+      "gii_2025": 28.2143
+    },
+    {
+      "country": "Oman",
+      "slug": "oman",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 1.8744,
+      "tourism_pct_exports_eff_is_fallback": false,
+      "tourism_receipts_usd": 669000000.0,
+      "log10_tourism_usd": 8.8254,
+      "ai_readiness_2023": 58.94,
+      "gii_2025": 28.6491
+    },
+    {
+      "country": "Qatar",
+      "slug": "qatar",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 20.1852,
+      "tourism_pct_exports_eff_is_fallback": false,
+      "tourism_receipts_usd": 14318000000.0,
+      "log10_tourism_usd": 10.1559,
+      "ai_readiness_2023": 63.59,
+      "gii_2025": 34.5618
+    },
+    {
+      "country": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 3.224,
+      "tourism_pct_exports_eff_is_fallback": false,
+      "tourism_receipts_usd": 5960000000.0,
+      "log10_tourism_usd": 9.7752,
+      "ai_readiness_2023": 67.04,
+      "gii_2025": 36.0448
+    },
+    {
+      "country": "United Arab Emirates",
+      "slug": "united-arab-emirates",
+      "tourism_year": 2020,
+      "tourism_pct_exports_eff": 7.0274,
+      "tourism_pct_exports_eff_is_fallback": true,
+      "tourism_receipts_usd": 24615400390.625,
+      "log10_tourism_usd": 10.3912,
+      "ai_readiness_2023": 70.42,
+      "gii_2025": 44.1545
+    }
+  ],
+  "directional_pairs_count": 24,
+  "methodology_pointers": [
+    "Descriptive comparison, not causal inference.",
+    "n = 6 (GCC); mixed-vintage sources.",
+    "Tourism share fallback: when WDI % of exports is missing, use tourism_receipts_usd / exports_usd * 100 and flag it.",
+    "AI readiness 2025 = mean of six 2025 Oxford pillars."
+  ]
+}

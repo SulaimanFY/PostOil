@@ -1,0 +1,16 @@
+# Python virtual env
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend local-only sync (auto-generated copy of /data)
+frontend/data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build output
+_site/
