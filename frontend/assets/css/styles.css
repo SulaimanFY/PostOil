@@ -923,6 +923,13 @@ code {
   background: var(--surface-soft);
 }
 
+#cy-a,
+#cy-b,
+#cy-c,
+#cy-d {
+  scroll-margin-top: 120px;
+}
+
 .switch-bar {
   align-items: center;
   border-top: 1px dashed var(--border);

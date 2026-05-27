@@ -185,10 +185,10 @@ export const renderCountry = async ({ params }) => {
     </section>
 
     <nav class="country-toc" aria-label="On this page">
-      <a href="#cy-a">A. Where is it now?</a>
-      <a href="#cy-b">B. Where is it going?</a>
-      <a href="#cy-c">C. How does it compare?</a>
-      <a href="#cy-d">D. Why?</a>
+      <a href="#cy-a" data-country-toc>A. Where is it now?</a>
+      <a href="#cy-b" data-country-toc>B. Where is it going?</a>
+      <a href="#cy-c" data-country-toc>C. How does it compare?</a>
+      <a href="#cy-d" data-country-toc>D. Why?</a>
     </nav>
 
     <div class="section-header switch-bar mt-3">
@@ -234,6 +234,14 @@ export const renderCountry = async ({ params }) => {
   `;
 
   const onMount = () => {
+    document.querySelectorAll("[data-country-toc]").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        const id = (link.getAttribute("href") || "").replace(/^#/, "");
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
     document.querySelectorAll(".chart-target[data-col]").forEach((el) => {
       const col = el.dataset.col;
       const minYear = el.dataset.minYear ? Number(el.dataset.minYear) : null;
