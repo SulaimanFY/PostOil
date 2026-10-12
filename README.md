@@ -17,6 +17,58 @@ the United Arab Emirates.
 
 ---
 
+## Demo
+
+[![PostOil demo: pick a country on the map, read its profile and trends, compare the six, check the sources](docs/demo/PostOil-demo-poster.jpg)](docs/demo/PostOil-demo.mp4)
+
+*A 45-second silent walkthrough of the dashboard: pick a country on the
+map, read its profile and long-run trends, compare it with a neighbour,
+compare all six countries on the GCC overview, then check the sources on
+the Methodology page. Click the image to open the video
+([MP4, 8 MB](docs/demo/PostOil-demo.mp4)), or try it on the
+[live dashboard](https://sulaimanfy.github.io/PostOil/).*
+
+---
+
+## Screenshots
+
+#### 1. Landing page and map
+
+![Landing page with the GCC map](docs/screenshots/01-map.png)
+
+*The project question and the interactive GCC map. Hovering a country
+highlights it (here the UAE); clicking it opens its country page.*
+
+#### 2. GCC overview: country snapshot
+
+![GCC country snapshot](docs/screenshots/02-gcc-snapshot.png)
+
+*The latest value of each indicator for the six countries, with its
+year, followed by a written reading of the table.*
+
+#### 3. GCC overview: headline pairings
+
+![Headline pairings](docs/screenshots/03-headline-pairings.png)
+
+*Cross-block scatter plots (export concentration, tourism share, AI
+readiness, innovation), each with a written reading and its caveat.*
+
+#### 4. Country page: where is it now?
+
+![UAE country page, Block A](docs/screenshots/04-country-profile.png)
+
+*Block A for the UAE: the latest KPIs, each with its year and source,
+and a written reading.*
+
+#### 5. Country page: where is it going?
+
+![UAE country page, Block B hydrocarbons](docs/screenshots/05-country-trends.png)
+
+*Block B for the UAE, hydrocarbon dependence: fuel exports and oil rents
+over time, with an interpretation card.*
+
+---
+
 ## What the dashboard shows
 
 The site is laid out around two entry points.
@@ -65,7 +117,8 @@ PostOil/
 │   ├── wdi_core.csv            WDI macro core (GDP, trade, sectoral shares, etc.)
 │   ├── merged_dataset.csv      The harmonised panel produced by the notebook
 │   └── postoil.db              SQLite mirror of the harmonised panel
-├── docs/                       Technical documentation (see docs/README.md)
+├── docs/                       Technical documentation (see docs/README.md),
+│                               plus the README's screenshots/ and demo/
 ├── frontend/                   Static site (no bundler, ES modules, D3 v7)
 │   ├── index.html
 │   ├── assets/
