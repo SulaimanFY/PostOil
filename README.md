@@ -25,7 +25,7 @@ the United Arab Emirates.
 map, read its profile and long-run trends, compare it with a neighbour,
 compare all six countries on the GCC overview, then check the sources on
 the Methodology page. Click the image to open the video
-([MP4, 8 MB](docs/demo/PostOil-demo.mp4)), or try it on the
+([MP4, 7 MB](docs/demo/PostOil-demo.mp4)), or try it on the
 [live dashboard](https://sulaimanfy.github.io/PostOil/).*
 
 ---
